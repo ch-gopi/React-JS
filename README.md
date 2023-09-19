@@ -195,4 +195,4 @@ Check out [Expo CLI](https://github.com/expo/expo-cli).
 
 ## License
 
-Create React App is open source software [licensed as MIT](https://github.com/facebook/create-react-app/blob/main/LICENSE). The Create React App logo is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+Create React App is open source software [licensed as MIT](https://github.com/facebook/create-react-app/blob/main/LICENSE).
