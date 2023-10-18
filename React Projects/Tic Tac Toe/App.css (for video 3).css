@@ -1,0 +1,102 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5e2db3;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.board {
+  width: 460px;
+  height: 90vh;
+  background-color: #5e2db3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square:hover {
+  background-color: #6d3cc4;
+
+}
+
+.square {
+  flex: 33% 1;
+  height: 100%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 60px;
+  color: white;
+  background-color: #5e2db3;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 5px 15px #629ae9;
+}
+
+.title {
+  font-size: 40px;
+  color: aqua;
+  text-shadow: 0 0 8px #222;
+  font-family: cursive;
+}
+.square:active {
+  background-color: #6d3cc4;
+
+}
+
+.winner {
+  background-color: #1a1a1ac7;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+
+h2.congo {
+  color: red;
+  font-size: 60px;
+  font-family: cursive;
+  text-shadow: 0 0 5px #700707cf;
+}
+
+h3.player {
+  font-size: 55px;
+  color: #fff;
+  font-family: monospace;
+}
+
+button {
+  border: none;
+  padding: 12px 30px;
+  border-radius: 20px;
+  background: #fef9ff;
+  box-shadow: 0 0 10px #666;
+  font-size: 24px;
+  font-family: cursive;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background: #fef9ff80;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+}
