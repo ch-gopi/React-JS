@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 255, 229);
+}
+.header{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 70px;
+}
+.main-div{
+  display: flex;
+  justify-content: space-around;
+}
+.randomB > button{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(179, 121, 233);
+  transition: 1s ease;
+  margin-left: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.random{
+  margin-left: 40px;
+}
+.randomB > button:hover{
+  transition: 1s ease;
+  background-color: rgb(49, 6, 90);
+  color: white;
+ border-radius: 10px; 
+ cursor: pointer;
+}
+.random > h1{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.tag > h1{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+.randomB{
+  margin-top: 30px;
+ margin-left: 160px;
+}
+.tag-input{
+  width: 150px;
+}
+.tag-input > input{
+  width: 200px;
+  margin-left: 160px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.tagB{
+  margin-left: 210px;
+  margin-top: 10px;
+}
+.tagB > button{
+  height: 40px;
+  width: 100px;
+  background-color: rgb(179, 121, 233);
+  transition: 1s ease;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tagB > button:hover{
+  transition: 1s ease;
+  background-color: rgb(49, 6, 90);
+  color: white;
+ border-radius: 10px; 
+ cursor: pointer;
+}
+.footer{
+  text-align: center;
+}
