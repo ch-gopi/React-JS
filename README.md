@@ -1,4 +1,24 @@
 # React-JS
+Integrating React app with AEM Single Page Application editor
+
+To install the complete application and explore, do the following
+
+Prerequisites
+Node 8.9.0 - https://nodejs.org/dist/latest-v8.x/
+Java 1.8 - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Maven 3.5.2 - https://archive.apache.org/dist/maven/maven-3/3.5.2/binaries/
+AEM 6.4 with Service pack 2
+Installation
+Clone the repo and cd into aem-spa-react/com.techmystyle.spa.react-demo/react-app
+
+Run $ npm install
+
+CD into aem-spa-react/com.techmystyle.spa.react-demo
+
+Run $ mvn clean install -PautoInstallPackage,buildDev -Padobe-public (Add -Daem.port=XXXX if your AEM instance is running on a port other than 4502)
+
+Step by Step guide
+Follow the instructions in this word document to build the application from base react application react-app
 # Create React App 
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
