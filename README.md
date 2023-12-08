@@ -6,6 +6,7 @@ To install the complete application and explore, do the following
 Prerequisites
 Node 8.9.0 - https://nodejs.org/dist/latest-v8.x/
 Java 1.8 - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
 Maven 3.5.2 - https://archive.apache.org/dist/maven/maven-3/3.5.2/binaries/
 AEM 6.4 with Service pack 2
 Installation
