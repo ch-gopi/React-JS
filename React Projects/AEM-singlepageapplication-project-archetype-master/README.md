@@ -1,8 +1,4 @@
----
 
-**IMPORTANT:** The SPA archetype has been merged into the [AEM Project Archetype](https://github.com/adobe/aem-project-archetype). This repository is no longer maintained.
-
----
 
 # AEM SPA Project Archetype
 
