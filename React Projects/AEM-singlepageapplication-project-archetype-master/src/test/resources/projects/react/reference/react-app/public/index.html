@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>React App</title>
+    <meta charset="utf-8" />
+    <meta
+      property="cq:pagemodel_root_url"
+      content="/content/test-spa-react-project/en.model.json"
+    />
+    <link
+      rel="stylesheet"
+      href="http://localhost:4502/etc.clientlibs/test-spa-react-project/clientlibs/responsivegrid.css"
+      type="text/css"
+    />
+    <script>
+      // In development mode, redirect from "/" to app root
+      if (
+        '%NODE_ENV%' === 'development' &&
+        location.pathname === '/' &&
+        '%REACT_APP_ROOT%'
+      ) {
+        location.href = '%REACT_APP_ROOT%';
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="page"></div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+#set($dollar = '$')
+<sly
+  data-sly-use.clientLib="${dollar}{'/libs/granite/sightly/templates/clientlib.html'}"
+></sly>
+<sly
+  data-sly-test="${dollar}{wcmmode.edit || wcmmode.preview}"
+  data-sly-call="${dollar}{clientLib.js @ categories='cq.authoring.pagemodel.messaging'}"
+></sly>
+<sly
+  data-sly-call="${dollar}{clientLib.js @ categories='${projectName}-${optionFrontend}'}"
+></sly>
